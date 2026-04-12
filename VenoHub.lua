@@ -1,7 +1,7 @@
 local RixerLibrary = loadstring(game:HttpGet(('https://raw.githubusercontent.com/cnPthPiGon/CM9/refs/heads/main/Library.lua')))()
 
 local Window = RixerLibrary:MakeWindow({
-    Name = "VENO HUB 😶‍🌫️                       NO ACCES TO SKID",
+    Name = "VENO HUB 🔥                       NO ACCES TO SKID",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "DestroyerHub" -- Met un nom personnalisé pour ton hub ici
@@ -44,7 +44,7 @@ Tab1:AddButton({
 })
 
 Tab1:AddButton({
-    Name = "KANYE ALLOW DISALOW",
+    Name = "KANYE ALLOW DISALOW 🔒 🔓",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/oYbSASyd/raw"))()
     end    
@@ -71,7 +71,7 @@ Tab2:AddButton({
 })
 
 Tab2:AddButton({
-    Name = "TP BLOCK (NEED CARPET)",
+    Name = "TP BLOCK 💫 (NEED CARPET)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/60hZyzUa"))()
     end    
@@ -90,6 +90,14 @@ Tab2:AddButton({
         loadstring(game:HttpGet("https://pastefy.app/v34Tt4oq/raw"))()
     end    
 })
+
+Tab2:AddButton({
+    Name = "AUTO GRAB AEZY",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/9MatqN1E"))()
+    end    
+})
+
 
 Tab2:AddButton({
     Name = "FLASH TP TIGY",
