@@ -95,15 +95,29 @@ Tab2:AddButton({
     Name = "FLASH TP TIGY",
     Callback = function()
         loadstring(game:HttpGet("https://ufwxzxvpnpvzkthfujyp.supabase.co/functions/v1/serve-script?id=113"))()
-    end    
+        end    
 })
 
 Tab2:AddButton({
     Name = "AP PROTECT",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/themk240/tmk-hub/refs/heads/main/apbaseprotectornokick"))()
+        end
+    })
+
+Tab1:AddButton({
+    Name = "K7 Duel",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mallu937/K7-DUEL/refs/heads/main/.lua"))()
     end    
 })
+Tab1:AddButton({
+    Name = "TP BLOCK ALL PLACE 1 FLOOR (NEED CARPET)",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/MbBidxE6/raw"))()
+    end    
+})
+
 
 local Tab3 = Window:MakeTab({
     Name = "DUEL",
