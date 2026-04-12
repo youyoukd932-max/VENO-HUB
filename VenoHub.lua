@@ -1,7 +1,7 @@
 local RixerLibrary = loadstring(game:HttpGet(('https://raw.githubusercontent.com/cnPthPiGon/CM9/refs/heads/main/Library.lua')))()
 
 local Window = RixerLibrary:MakeWindow({
-    Name = "TOMAR HUB                         NO ACCES TO SKID",
+    Name = "VENO HUB 😶‍🌫️                       NO ACCES TO SKID",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "DestroyerHub" -- Met un nom personnalisé pour ton hub ici
@@ -105,19 +105,14 @@ Tab2:AddButton({
         end
     })
 
-Tab1:AddButton({
-    Name = "K7 Duel",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/mallu937/K7-DUEL/refs/heads/main/.lua"))()
-    end    
-})
-Tab1:AddButton({
+Tab2:AddButton({
     Name = "TP BLOCK ALL PLACE 1 FLOOR (NEED CARPET)",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/MbBidxE6/raw"))()
-    end    
-})
-
+            
+        end    
+        
+    })
 
 local Tab3 = Window:MakeTab({
     Name = "DUEL",
