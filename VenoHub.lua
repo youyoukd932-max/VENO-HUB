@@ -92,7 +92,7 @@ Tab2:AddButton({
 })
 
 Tab2:AddButton({
-    Name = "AUTO GRAB AEZY",
+    Name = "AUTO GRAB AEZY WITH (TP ALL PLACE)",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/9MatqN1E"))()
     end    
