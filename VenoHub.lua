@@ -143,7 +143,7 @@ Tab3:AddButton({
     end    
 })
 
-Tab1:AddButton({
+Tab3:AddButton({
     Name = "NOVA HUB 🔵",
     Callback = function()
         loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/752793106aac832ba8ddd9d8718e3189d73b69680acd7616ff256c77d42ac9d3/download"))()
