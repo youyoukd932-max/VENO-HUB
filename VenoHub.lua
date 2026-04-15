@@ -156,3 +156,16 @@ Tab3:AddButton({
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Kurd-hub-51808"))()
     end    
 })
+
+local Tab4 = Window:MakeTab({
+    Name = "AUTO JOINER",
+    Icon = "rbxassetid://117917068601552",
+    PremiumOnly = false
+})
+
+Tab4:AddButton({
+    Name = "AUTO JOINER LC HUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/47T5PjoT/raw"))()
+    end    
+})
